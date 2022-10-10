@@ -310,7 +310,23 @@ header .menu ul li a:hover{
         margin-left: 20%;
     
     }
-    
 
- }
+    .container .card{
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 220px;
+        height: 300px;
+        margin: 23px;
+        overflow: hidden;
+        box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.301);
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #FFF;
+        border-left: 1px solid #FFF;
+        border-right: 1px solid #FFF;
+        border-bottom: 1px solid #FFF;
+        text-decoration: none;
+    }
+}
+
  
