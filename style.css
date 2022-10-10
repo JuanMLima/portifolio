@@ -205,6 +205,9 @@ header .menu ul li a:hover{
     }
     header .btn-mobile{
         display: flex;
+        align-items: flex-end;
+        margin-left: 85%;
+        position: fixed;
         color: #fff;
         font-size: 1.5rem;
     }
@@ -226,10 +229,12 @@ header .menu ul li a:hover{
     }
     header .menu-mobile ul li{
         list-style: none;
+        text-align: center;
         padding: 12px 0;
         color: #FFF;
     }
     header .menu-mobile ul li a{
+        text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         color:#be0404;
@@ -237,7 +242,7 @@ header .menu ul li a:hover{
     
 
     header #logo img{
-        position:relative;
+        position: relative;
         display: flex;
         width: 60px;
         height: 60px;
