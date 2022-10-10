@@ -362,6 +362,17 @@ header .menu ul li a:hover{
         border-bottom: 1px solid #FFF;
         text-decoration: none;
     }
+
+    .container .card .content .veja{
+        cursor: pointer;
+        margin-top: 1%;
+        height: 35px;
+        width: 150px;
+        box-shadow: 1px 1px 8px #fff;
+        border-color: #FFF;
+        background-color: #75030336;
+        
+    }
 }
 
  
