@@ -171,6 +171,20 @@ footer {
     margin-left: 20%;
 
 }
+.linguagens{
+    display: flex;
+    margin-left: 20%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+.linguagens .card{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 
 /* ---------------- Pagina Projetos ---------------- */
 
@@ -357,7 +371,7 @@ footer {
      }
 
      #Sobre .descricao .paragrafo{
-        margin-top:50%; 
+        margin-top:100%; 
      }
      #Sobre .descricao .paragrafo h1{
         align-items: center;
@@ -378,6 +392,21 @@ footer {
         margin-top: 2%;
         margin-left: 20%;
     
+    }
+
+    .linguagens{
+        display: flex;
+
+        position: absolute;
+        height: 1%;
+        align-items: center;
+
+    }
+    .linguagens .card{
+        width: 50px;
+        height: 50px;
+        padding-left: 0px;
+        padding-right: 7px;
     }
 
     .container .card{
